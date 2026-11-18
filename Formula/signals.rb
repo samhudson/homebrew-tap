@@ -1,13 +1,13 @@
 class Signals < Formula
   desc "Menu bar lights for your AI agent sessions, and what they use"
   homepage "https://github.com/samhudson/signals"
-  url "https://github.com/samhudson/signals/releases/download/v1.3.0/signals-1.3.0.tar.gz"
-  sha256 "ebf606c652e9843dbf13b87ab6e93df2e3de1c4760e60a70de34afef90ee6bea"
+  url "https://github.com/samhudson/signals/releases/download/v1.3.1/signals-1.3.1.tar.gz"
+  sha256 "554d55d2564e07ce839db6f0af90430a6c830ffabd65afc91ea52fe13fd11638"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/samhudson/signals/releases/download/v1.3.0"
-    sha256 cellar: :any_skip_relocation, all: "eaa2bc90ed2582e0936494127c1900d473c265947ad60be214f23c37346fadf7"
+    root_url "https://github.com/samhudson/signals/releases/download/v1.3.1"
+    sha256 cellar: :any_skip_relocation, all: "9e7d63661983d36fbd1cdad203b20a5ec2cda88bfd3440761af927e40a54975e"
   end
 
   depends_on "go" => :build
